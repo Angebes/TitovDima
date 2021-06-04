@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Light";
+    src: url("../fonts/opensans-light-webfont.woff2") format("woff2"),
+        url("../fonts/opensans-light-webfont.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "LightItalic";
+    src: url("../fonts/opensans-lightitalic-webfont.woff2") format("woff2"),
+        url("../fonts/opensans-lightitalic-webfont.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Regular";
+    src: url("../fonts/opensans-regular-webfont.woff2") format("woff2"),
+        url("../fonts/opensans-regular-webfont.woff") format("woff");
+    font-display: swap;
+}
+@font-face {
+    font-family: "Semibold";
+    src: url("../fonts/opensans-semibold-webfont.woff2") format("woff2"),
+        url("../fonts/opensans-semibold-webfont.woff") format("woff");
+    font-display: swap;
+}
