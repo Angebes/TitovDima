@@ -1,0 +1,15 @@
+.wr-what {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../media/what/top-bg.png");
+    height: 266px;
+    background-size: cover;
+    background-position: top;
+    margin-bottom: 6%;
+}
+.section-title {
+    max-width: 757px;
+}
+.description {
+    margin-bottom: 0;
+}

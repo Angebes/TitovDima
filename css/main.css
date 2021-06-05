@@ -9,10 +9,9 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url("../media/main/cd-intro-bg.png");
-    height: 700px;
+    height: 100vh;
     background-size: cover;
     background-position: center;
-    height: 100vh;
     margin-bottom: 6%;
 }
 header {
@@ -46,22 +45,6 @@ nav ul {
 nav li {
     margin-left: 34px;
 }
-.menu {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 85%;
-    height: 100%;
-    padding: 15px;
-    background-color: gray;
-    transform: translateX(-100%);
-    transition: transform 0.5s;
-}
-
-.menu.active {
-    transform: translateX(0);
-}
-
 .burger {
     width: 20px;
     height: 15px;
@@ -69,6 +52,11 @@ nav li {
     margin-top: 57%;
     margin-left: 5%;
     position: relative;
+    /* display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: stretch;
+	align-items: flex-end; */
 }
 .burger__line {
     display: block;
@@ -124,21 +112,26 @@ nav li {
     line-height: 60px;
 }
 .media-table {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    /* display: grid;
+    /* grid-template-columns: repeat(4, 1fr);
     grid-auto-flow: row;
     justify-content: space-around;
+    max-width: 1285px; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
 }
 .img-work {
     margin: 2px;
+    min-width: 500px;
+    min-height: 500px;
 }
 .portfolio {
-    display: grid;
-    grid-template: repeat(1, 1fr) / repeat(3, 1fr);
-    grid-column-start: 1;
-    grid-column-end: 3;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     background-color: #f9f9f9;
-    margin-top: -10%;
 }
 .man-photo {
     margin: 2.5px;
@@ -185,11 +178,11 @@ nav li {
     padding-left: 4%;
     padding-bottom: 10%;
 }
-.grid__item {
+/* .grid__item {
     grid-row-start: 1;
     grid-row-end: 3;
     margin: auto;
-}
+} */
 .news__blog {
     display: flex;
     margin-bottom: 15%;
@@ -256,9 +249,9 @@ nav li {
 .img__map {
     display: inline-flex;
     justify-content: center;
-    align-items: stretch;
-    padding-left: 15%;
-    padding-right: 15%;
+    max-width: 100%;
+    /* padding-left: 15%;
+    padding-right: 15%; */
 }
 .contacts__wr {
     display: flex;
