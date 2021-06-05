@@ -353,10 +353,10 @@ nav li {
     .wrapper {
         padding-left: 40px;
     }
-    .description {
+    /* .description {
         padding-top: 14%;
         padding-bottom: 15%;
-    }
+    } */
     .section-title {
         max-width: 757px;
         margin-bottom: 15%;
@@ -372,7 +372,7 @@ nav li {
     /* .title {
         font-size: 60px; */
     .description {
-        padding-bottom: 25%;
+        padding-bottom: 15%;
     }
     header ul {
         padding-left: 15%;
