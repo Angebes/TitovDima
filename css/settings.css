@@ -57,8 +57,7 @@ body {
     text-align: center;
     font-style: normal;
     letter-spacing: 0.9px;
-
-    /* margin-bottom: 15%; */
+    margin-bottom: 10%;
 }
 .btn {
     position: absolute;
