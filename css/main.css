@@ -328,10 +328,10 @@ nav li {
     header ul {
         padding-top: 50%;
     }
-    .description {
+    /* .description {
         padding-top: 10%;
         padding-bottom: 10%;
-    }
+    } */
     .portfolio {
         flex-direction: column;
         align-items: center;
