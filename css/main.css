@@ -350,10 +350,6 @@ nav li {
     .wrapper {
         padding-left: 40px;
     }
-    /* .description {
-        padding-top: 14%;
-        padding-bottom: 15%;
-    } */
     .section-title {
         max-width: 757px;
         margin-bottom: 15%;
@@ -400,13 +396,5 @@ nav li {
 
     .wr-welcome {
         padding-top: 0;
-    }
-    .description {
-        padding-bottom: 60%;
-    }
-}
-@media (max-width: 320px) {
-    .description {
-        padding-bottom: 67%;
     }
 }
