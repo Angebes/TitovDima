@@ -9,7 +9,7 @@ body {
     display: flex;
     flex-direction: column;
     background-image: url("../media/main/cd-intro-bg.png");
-    height: 100vw;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     margin-bottom: 6%;
@@ -94,7 +94,9 @@ nav li {
     flex-direction: column;
     text-align: center;
     flex-grow: 1;
-    padding-top: 31%;
+    padding-top: 15%;
+    /* padding-left: 10px;
+    padding-right: 10px; */
     margin-bottom: 121px;
 }
 
@@ -122,13 +124,23 @@ nav li {
     justify-content: center;
     flex-wrap: wrap;
     max-width: 100%;
+    /* flex-direction: column; */
 }
 .img-work {
     margin: 2px;
-    min-width: 166px;
-    max-width: 316px;
-    min-height: 150px;
-    max-height: 300px;
+}
+.photo-wr {
+    width: 25%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+.photo-wr::before {
+    content: "";
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+    background-size: 100%;
 }
 .portfolio {
     display: flex;
@@ -247,12 +259,12 @@ nav li {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 3%;
+    margin: 3%;
 }
 .img__map {
     display: inline-flex;
     justify-content: center;
-    max-width: 100vw;
+    max-width: 100%;
     /* padding-left: 15%;
     padding-right: 15%; */
 }
@@ -328,10 +340,13 @@ nav li {
     header ul {
         padding-top: 50%;
     }
-    /* .description {
+    .description {
         padding-top: 10%;
         padding-bottom: 10%;
-    } */
+    }
+    .title {
+        /* line-height: 100px; */
+    }
     .portfolio {
         flex-direction: column;
         align-items: center;
@@ -350,6 +365,10 @@ nav li {
     .wrapper {
         padding-left: 40px;
     }
+    .description {
+        padding-top: 14%;
+        padding-bottom: 15%;
+    }
     .section-title {
         max-width: 757px;
         margin-bottom: 15%;
@@ -365,16 +384,16 @@ nav li {
     /* .title {
         font-size: 60px; */
     .description {
-        padding-bottom: 15%;
+        padding-bottom: 25%;
     }
     header ul {
         padding-left: 15%;
     }
     .upper-title {
-        margin-bottom: 25%;
+        margin-bottom: 10%;
     }
     .wr-welcome {
-        padding-top: 15%;
+        padding-top: 40%;
     }
 }
 
@@ -395,6 +414,14 @@ nav li {
     }
 
     .wr-welcome {
-        padding-top: 0;
+        padding-top: 40%;
+    }
+    .description {
+        padding-bottom: 60%;
+    }
+}
+@media (max-width: 320px) {
+    .description {
+        padding-bottom: 67%;
     }
 }
