@@ -56,7 +56,6 @@ body {
     /* margin-bottom: 23%; */
 }
 .description {
-    height: 180px;
     color: #021725;
     font-family: "Regular";
     /* font-size: 18px; */
@@ -66,7 +65,7 @@ body {
     text-align: center;
     font-style: normal;
     letter-spacing: 0.9px;
-    padding-top: 10%;
+    padding-top: 5%;
     /* margin-bottom: 15%; */
 }
 .btn {
