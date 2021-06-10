@@ -12,9 +12,12 @@ body {
 
 .wr-article {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     /* margin-bottom: 3%; */
+    align-content: space-around;
+    flex-direction: column;
+    align-items: center;
 }
 .section-title {
     max-width: 757px;
